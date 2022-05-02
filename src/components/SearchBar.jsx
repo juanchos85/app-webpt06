@@ -4,7 +4,7 @@ export default function SearchBar({onSearch}) {
   // acá va tu código
   function handleOnSerch() {
     if(typeof onSearch === "function"){
-      const input = document.getElementById("#search-bar-input");
+      const input = document.getElementById("search-bar-input");
     onSearch(input.value)}
   }
   return (<div>
